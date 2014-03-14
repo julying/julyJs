@@ -53,7 +53,7 @@
  　　　　.removeAt : 删除数组中 指定位置的值
  　　　　.shuffle : 打乱数组排序
  julyJs.image :
- 　　　　.preLoad : 预加载图像
+ 　　　　.preLoad : 预加载图像 
  julyJs.json :
  　　　　.parse : 格式化字符串，变为 json 对象
  julyJs.template : 模板
