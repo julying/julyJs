@@ -28,7 +28,7 @@ julyJs
  * </script>
 **/
 
-
+/*
  ■■■ 函数简介 ■■■
 julyJs.version :
  julyJs.noop : 空函数
@@ -107,4 +107,5 @@ julyJs.version :
  　　　　.parse : 格式化时间
  　　　　.getWeek : 获取星期几
  　　　　.format :
- 　　　　.countDown : 倒计时
+ 　　　　.countDown : 倒计 　　　　时
+*/
