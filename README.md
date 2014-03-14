@@ -8,7 +8,7 @@ julyJs
  * ★ 网站开发常用 方法.
  * Version  : 1.0
  * Author   : 王子墨
- * Website  : lab.julying.com/july.js/
+ * Website  : http://lab.julying.com/july.js/
  * Email    : i@julying.com
  * QQ       : 31697011
  *
