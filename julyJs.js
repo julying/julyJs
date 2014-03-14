@@ -10,6 +10,16 @@
  * updated  : 2013/12/20 22:00
  *
  *
+ * Demo:
+ * <script type="text/javascript" src="july.js"></script>
+ * <script type="text/javascript">
+ * 		//定义 ，可以不填写
+ * 	julyJs.config = {
+ * 			errorUrl : 'http://julying.com/?404' // 上报 window.onerror 的网址，用于后台统计、告警
+ * };
+ *	//初始化调用
+ *	julyJs.init();
+ * </script>
 **/
 
 /**
@@ -188,14 +198,12 @@ julyJs.loadJs = function( src, opt ){ //# 加载js文件（支持跨域）
 			script.onreadystatechange = null;
 			//清空超时事件
 			clearTimeout( timer );
-			console.log('成功');
 			opts.onload();
 		}
 	};
 	head.insertBefore(script, head.firstChild);
 	//检测超时
 	timer = setTimeout(function(){
-		console.log('超时');
 		head.removeChild( script );
 		//触发错误
 		opts.onerror();
